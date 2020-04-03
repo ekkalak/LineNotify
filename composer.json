@@ -1,0 +1,28 @@
+{
+    "name": "ekkalak/line-notify",
+    "description": "Sending messages to LINE Notify with PHP",
+    "keywords": ["Line Notify", "Line API"],
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "^6.5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ekkalak",
+            "email": "ekkalak.sitotai@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ekkalak\\Line\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\" : "tests/"
+        }
+    }
+}
