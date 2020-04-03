@@ -14,7 +14,7 @@
             "email": "ekkalak.sitotai@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Ekkalak\\Line\\" : "src/"
