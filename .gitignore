@@ -1,6 +1,5 @@
 /vendor/
 /temp
-/tests
 .DS_Store
 .idea
 composer.lock
