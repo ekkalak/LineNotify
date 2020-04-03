@@ -29,7 +29,9 @@ $response = $notify->sendText($text);
 $response = $notify->sendText("Hello test");
 
 // Send sticker
-// Sticker List: https://devdocs.line.me/files/sticker_list.pdf
+// Sticker List:
+// https://devdocs.line.me/files/sticker_list.pdf
+// https://developers.line.biz/media/messaging-api/sticker_list.pdf
 $response = $notify->sendSticker($stickerPackageId, $stickerId);
 
 // i.e.
