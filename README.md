@@ -16,9 +16,9 @@ Sending messages to LINE Notify with PHP.
 ```php
 <?php 
 
-use Ekkalak\Line\LineNotify;
-
 require_once '../vendor/autoload.php';
+
+use Ekkalak\Line\LineNotify;
 
 $notify = new LineNotify('YOUR-TOKEN-HERE');
 
