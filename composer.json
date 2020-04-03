@@ -1,6 +1,5 @@
 {
     "name": "ekkalak/line-notify",
-    "version": "1.0.0",
     "description": "Sending messages to LINE Notify with PHP",
     "keywords": ["Line Notify", "Line API"],
     "type": "library",
